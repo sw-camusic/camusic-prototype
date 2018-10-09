@@ -7,9 +7,9 @@ window.addEventListener("DOMContentLoaded", () => {
     }).then((stream) => {
         let video = document.querySelector("video");
         video.autoplay = true;
-        // video.height = window.innerHeight;
-        // video.width = window.innerWidth;
+        video.height = window.innerHeight;
         video.srcObject = stream;
+        video.width = window.innerWidth;
     });
 
     document.querySelectorAll(".music-play").forEach((value) => {
