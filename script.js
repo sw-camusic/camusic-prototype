@@ -7,8 +7,8 @@ window.addEventListener("DOMContentLoaded", () => {
     }).then((stream) => {
         let video = document.querySelector("video");
         video.height = window.innerHeight;
-        video.srcObject = stream;
         video.width = window.innerWidth;
+        video.srcObject = stream;
     });
 
     document.querySelectorAll(".music-play").forEach((value) => {
