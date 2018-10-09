@@ -1,0 +1,27 @@
+.camera-wrapper {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.music-audio {
+    display: none;
+}
+
+.music-play {
+    flex: 1;
+}
+
+.music-play-wrapper {
+    display: flex;
+    height: 3rem;
+}
+
+.music-wrapper {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
