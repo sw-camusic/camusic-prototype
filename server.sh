@@ -19,4 +19,4 @@ RUN apt update \\\\\n\
     rm camusic-prototype-server.dockerfile
 fi
 
-docker run --rm -p 8080:80 -p 8443:443 -v `pwd`/src:/usr/local/apache2/htdocs:ro camusic-prototype-server
+docker run --rm -p 8080:80 -p 8443:443 -v `pwd`:/usr/local/apache2/htdocs:ro camusic-prototype-server
