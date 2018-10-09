@@ -6,6 +6,7 @@ window.addEventListener("DOMContentLoaded", () => {
         },
     }).then((stream) => {
         let video = document.querySelector("video");
+        video.autoplay = true;
         // video.height = window.innerHeight;
         // video.width = window.innerWidth;
         video.srcObject = stream;
