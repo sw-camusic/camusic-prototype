@@ -19,6 +19,11 @@
     height: 3rem;
 }
 
+.music-play-wrapper button {
+    background-color: transparent;
+    border: thin solid #000000;
+}
+
 .music-wrapper {
     bottom: 0;
     position: fixed;
